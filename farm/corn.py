@@ -1,9 +1,10 @@
-class Corn:
-    def __init__(self):
-        self.grains = 0
+"""Corn crop implementation."""
+
+from farm.crop import Crop
+
+class Corn(Crop):
+    """Corn crop. Watering produces 10 grains."""
 
     def water(self):
+        """Water the corn crop, producing 10 grains."""
         self.grains += 10
-
-    def ripe(self):
-        return self.grains >= 15
