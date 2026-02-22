@@ -1,5 +1,2 @@
-
-class Rice():
-    # YOUR CODE HERE
+class Rice:
     pass
-
